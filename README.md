@@ -110,3 +110,19 @@ mean-assignment
 - Ensure that MongoDB is running before starting the Node.js server.
 - Make sure to run both the backend and frontend simultaneously.
 - Update the MongoDB connection string in `app.js` if necessary.
+
+
+# API Usage
+
+The backend of this application provides a RESTful API for data manipulation. Here are the available API endpoints:
+
+- **GET /api/endpoint1**: Description of what this endpoint does.
+- **POST /api/endpoint2**: Description of what this endpoint does.
+- **PUT /api/endpoint3**: Description of what this endpoint does.
+- **DELETE /api/endpoint4**: Description of what this endpoint does.
+
+To interact with the API, you can use tools like Postman or curl. Here's an example of how to use curl to retrieve data:
+
+```bash
+curl http://localhost:3000/api/endpoint1
+
